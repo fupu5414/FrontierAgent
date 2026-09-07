@@ -203,6 +203,8 @@ class FrontierAgentConfig(BaseSettings):
 
     serper_api_key: str = ""
     serper_base_url: str = "https://google.serper.dev"
+    openalex_api_key: str = ""
+    openalex_base_url: str = "https://api.openalex.org"
     jina_api_key: str = ""
     jina_base_url: str = "https://r.jina.ai"
     # Suffix-matched domains blocked from both search and fetch.
